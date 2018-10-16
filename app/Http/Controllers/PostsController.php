@@ -112,7 +112,7 @@ class PostsController extends Controller
 
         $post = Post::find($id);
 
-        // Check for correct user before showing
+        // Check for correct user
         if (auth()->user()->id !== $post->user_id){
             return redirect('/posts')->with('error', 'Unauthorized access.');
         }
