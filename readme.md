@@ -2,4 +2,4 @@
 
 ## Laravel Test App
 
-Built this to do the learnings.
+Built this to do the learnings. We're making progress.
